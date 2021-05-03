@@ -20,11 +20,17 @@ Add left content to diff
 ```
 PUT 
 /v1/diff/{id}/left 
+{
+	"data": "SGVsbG8gV29yV2Q="
+}
 ```
 Add right content to diff
 ```
 PUT 
 /v1/diff/{id}/right 
+{
+	"data": "SGVsbG8gV29YV2Q="
+}
 ```
 Result sounds like: 
 ```
