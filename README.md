@@ -34,6 +34,8 @@ PUT
 ```
 Result sounds like: 
 ```
+GET 
+/v1/diff/{id}
 {
   "result": "Offset: [8] Length: [11]"
 }
